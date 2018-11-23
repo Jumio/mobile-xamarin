@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Start Netverify</string>
+    <string name="app_name">DemoBindingsAndroid</string>
+  <string name="DV">Start Document Verification</string>
+  <string name="dv_helpview_small_title_capture">&lt;b&gt; &#160; &#160; &#160; &#160; &#160; &#160; &#160;Capture %1$s&lt;/b&gt;</string>
+</resources>

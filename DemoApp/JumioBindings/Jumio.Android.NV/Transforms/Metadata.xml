@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    
+    <remove-node path="/api/package[@name='com.jumio.nv.data.country']/class[@name='Country']" />
+    <remove-node path="/api/package[@name='com.jumio.nv.data.document']/class[@name='DocumentType']" />
+    <remove-node path="/api/package[@name='com.jumio.nv.benchmark.coremark']/class[@name='CoremarkC']" />
+    <remove-node path="/api/package[@name='com.jumio.nv']/class[@name='NetverifyActivity']" />
+</metadata>

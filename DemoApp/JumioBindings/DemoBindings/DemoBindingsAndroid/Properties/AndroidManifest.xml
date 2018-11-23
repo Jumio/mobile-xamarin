@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:versionCode="1" android:versionName="1.0" package="com.demo.DemoBindingsAndroid">
+	<uses-sdk android:minSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+	<application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name">
+		<meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode, face"
+            tools:replace="android:value"/>
+        <activity
+            android:name="com.jumio.nv.NetverifyActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Netverify" />
+        <activity
+            android:name="com.jumio.dv.DocumentVerificationActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.DocumentVerification" />
+	</application>
+</manifest>
