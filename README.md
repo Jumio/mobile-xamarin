@@ -8,8 +8,8 @@ We only ensure compatibility with Xamarin.Android SDK 9.0.0.19 and Xamarin.iOS S
 
 ## Setup
 
-The SDK can be used in a native Xamarin.Android or Xamarin.iOS project, as well as in a Xamarin.Forms project.
-There are demo applications for both the [native Android and iOS binding project](https://github.com/Jumio/mobile-xamarin/tree/master/DemoApp/JumioBindings) and the [Xamarin.Forms project](https://github.com/Jumio/mobile-xamarin/tree/master/DemoApp/JumioForms)
+The SDK can be used in a Xamarin.Android or Xamarin.iOS project, as well as in a Xamarin.Forms project.
+There are demo applications for both [Xamarin.Android and Xamarin.iOS](https://github.com/Jumio/mobile-xamarin/tree/master/DemoApp/JumioBindings) and the [Xamarin.Forms project](https://github.com/Jumio/mobile-xamarin/tree/master/DemoApp/JumioForms)
 
 To set it up in your own project, first copy the .dll-files from the `Ref` folder for a [native project Android/iOS](https://github.com/Jumio/mobile-xamarin/tree/master/DemoApp/JumioForms/Ref).
 Set up the .dll files as references in your project.
