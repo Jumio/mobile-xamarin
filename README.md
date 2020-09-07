@@ -1,6 +1,6 @@
 # Plugin for Xamarin
 
-Official Jumio Mobile SDK plugin for Xamarin
+**This project is not actively maintained anymore. If you have any requests regarding the Jumio Xamarin plugin, please reach out to support@jumio.com or your Jumio account manager**
 
 ## Compatibility
 
